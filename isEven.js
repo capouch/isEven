@@ -1,7 +1,7 @@
 function isEven(number) {
-	if (number == 2) 
+	if (Math.abs(number) - 2 == 2) 
 	  return true;
-	else if (number == 1)
+	else if (Math.abs(number) - 2 == 1)
 	  return false;
 	else
 	  return isEven(number -2);
